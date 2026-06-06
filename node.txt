@@ -1,0 +1,21 @@
+1- We have computer/mobile/desktop user send request to server that request listen by Express in server
+
+computer/desktop/mobile ---- Express ----- server
+                               ----->
+                               <-----
+
+whatever url we enter that request type is get
+Here Express listen user request
+
+2- Now we create empty node application using npm init(initialize node application)
+
+3-Creating index.js file so, run this file using pachage.json file we do add run command in this
+   "scripts": {
+  }
+
+4- Then move for Express Js which is web framework for Node.Js. So now we install Express.js in our system
+   using command - $ npm install express --save
+
+5 - For deployment we use .env packages
+    Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. 
+    Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.
